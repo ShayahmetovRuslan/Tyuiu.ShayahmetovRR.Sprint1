@@ -12,7 +12,7 @@ namespace Tyuiu.ShayahmetovRR.Sprint1.Task6.V14.Lib
     {
         public bool CheckLowerCaseRusLetters(string value)
         {
-            return !Regex.IsMatch(value, "[^а-я]");
+            return Regex.IsMatch(value, "[а-я]");
         }
     }
 }
